@@ -1,5 +1,6 @@
 ## CRUD RESTful API
---------------------
+
+---
 
 A RESTful API for a CRUD application. I tried to keep it as generic as I knew how, in hopes I could use this as a template
 for future projects.
