@@ -1,7 +1,7 @@
 ## `CRUD RESTful API`
 --------------------
 
-A RESTful API for a CRUD application. I tried to keep it as generic as I could in hopes I could use that as template
+A RESTful API for a CRUD application. I tried to keep it as generic as I knew how, in hopes I could use this as a template
 for future projects.
 
 It is built using Node.js, Express, and MongoDB Atlas. I only plan to build the backend for this project and
