@@ -28,13 +28,13 @@ To run the project, run `npm start` and the server will start on port 3000. You 
 
 The API is built using the RESTful architecture. The API has the following endpoints:
 
-| Method | URL       | Action             |
-| ------ | --------- | ------------------ |
-| GET    | /         | Get API info       |
-| GET    | /item     | List all recipes   |
-| POST   | /item     | Create a recipe    |
-| GET    | /item/:id | Get a recipe       |
-| PUT    | /item/:id | Update a recipe    |
-| DELETE | /item/:id | Delete a recipe    |
-| DELETE | /item     | Delete all recipes |
+| Method | URL       | Action           |
+| ------ | --------- | ---------------- |
+| GET    | /         | Get API info     |
+| GET    | /item     | List all items   |
+| POST   | /item     | Create a item    |
+| GET    | /item/:id | Get a item       |
+| PUT    | /item/:id | Update a item    |
+| DELETE | /item/:id | Delete a item    |
+| DELETE | /item     | Delete all items |
 
