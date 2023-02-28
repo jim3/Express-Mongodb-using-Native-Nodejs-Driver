@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 dotenv = require("dotenv").config();
+const itemRouter = require("./routes/itemRoutes");
 
 // parse requests of content-type - application/json
 app.use(express.json());
@@ -8,18 +9,18 @@ app.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
 
-// test route
-app.get("/", (req, res) => {
-    res.json({ message: "A REST API for item Application." });
-});
-
-// routes
-app.use("/", require("./routes/itemRoutes"));
+// load routing middleware
+app.use("/", itemRouter);
 
 // error handling middleware
 app.use((err, req, res, next) => {
     console.log(err);
     res.status(422).send({ error: err.message });
+});
+
+// route handler for root path
+app.get("/", (req, res) => {
+    res.json({ message: "REST API Info" });
 });
 
 // set port, listen for requests
