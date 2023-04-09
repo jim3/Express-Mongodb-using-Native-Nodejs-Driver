@@ -1,12 +1,11 @@
 ## CRUD RESTful API
 
+A RESTful API for a CRUD application. I opted out of using Mongoose and intead used MongoDB Node.js native driver, mostly as a learning experience.
 
-
-A RESTful API for a CRUD application. I tried to keep it as generic as I knew how, in hopes I could use this as a template
-for future projects.
-
-It is built using Node.js, Express, and MongoDB Atlas. I only plan to build the backend for this project and
-will add to it as I learn more about building RESTful APIs.
+### Tech Stack
+Node.js
+Express.js
+MongoDB Atlas
 
 ### Installation
 
