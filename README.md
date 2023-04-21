@@ -1,6 +1,6 @@
 ## CRUD RESTful API
 
-A RESTful API for a CRUD application. I opted out of using Mongoose and intead used MongoDB Node.js native driver, mostly as a learning experience.
+First "go" at a RESTful API using Node and Express. I opted out of using Mongoose and instead used MongoDB Node.js native driver, mostly as a learning experience.
 
 ### Tech Stack
 Node.js
